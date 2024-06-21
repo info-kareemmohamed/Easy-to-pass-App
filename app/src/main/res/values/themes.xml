@@ -2,7 +2,12 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.EasyToPass" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+         <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">#FFFFFF</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+
     </style>
 
     <style name="Theme.EasyToPass" parent="Base.Theme.EasyToPass" />
