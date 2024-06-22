@@ -89,11 +89,13 @@
             app:tabSelectedTextColor="@color/white" />
 
 
-        <androidx.viewpager2.widget.ViewPager2
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mainRecyclerView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:contentDescription="Swipe to navigate between pages"
-            android:importantForAccessibility="yes" />
+            android:layout_height="wrap_content"
+
+            />
+
 
     </LinearLayout>
 </layout>
