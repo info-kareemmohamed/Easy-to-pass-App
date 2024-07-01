@@ -5,7 +5,6 @@
 
     <data>
 
-
     </data>
 
     <LinearLayout
@@ -50,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:letterSpacing="0.1"
-                    android:text="Easy to pass"
+                    android:text="@string/easy_to_pass"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_25ssp"
                     android:textStyle="bold"
@@ -64,7 +63,7 @@
                     android:layout_margin="@dimen/_3sdp"
                     android:gravity="center"
                     android:letterSpacing="0.1"
-                    android:text="Challenge yourself and take the quiz it's a fun way to test your knowledge and learn something new!"
+                    android:text="@string/challenge_yourself_and_take_the_quiz_it_s_a_fun_way_to_test_your_knowledge_and_learn_something_new"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_13ssp"
                     android:textStyle="bold"

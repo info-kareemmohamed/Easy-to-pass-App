@@ -6,16 +6,14 @@ import android.os.Bundle
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.easytopass.databinding.ActivityMainBinding
 import com.example.easytopass.model.Category
 import com.example.easytopass.adapter.MainRecyclerViewAdapter
+import com.example.easytopass.databinding.ActivityMainBinding
 import com.example.easytopass.model.Book
 import com.example.easytopass.model.Chapter
 import com.example.easytopass.model.Question
-import com.example.easytopass.model.QuizApp
 import com.example.easytopass.ui.ChapterActivity
 import com.example.easytopass.util.Constant.Companion.INTENT_CHAPTER_LIST
-import com.example.easytopass.util.Constant.Companion.INTENT_QUESTION_LIST
 import com.google.android.material.tabs.TabLayout
 
 class MainActivity : AppCompatActivity(), MainRecyclerViewAdapter.OnMainCardClickListener {
