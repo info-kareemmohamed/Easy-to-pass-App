@@ -2,4 +2,6 @@
     <string name="app_name">Easy To Pass</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="easy_to_pass">Easy to pass</string>
+    <string name="challenge_yourself_and_take_the_quiz_it_s_a_fun_way_to_test_your_knowledge_and_learn_something_new">Challenge yourself and take the quiz it\'s a fun way to test your knowledge and learn something new!</string>
 </resources>
